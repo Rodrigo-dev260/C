@@ -6,10 +6,10 @@ int main(){
     char nome[50];
      
     printf("Digite sua idade: \n");
-    scanf ("%d", &idade);
+    scanf("%d", &idade);
 
     printf("Digite sua altura: \n");
-    scanf ("%f", &altura);
+    scanf("%f", &altura);
 
     printf("Digite seu nome: \n");
     scanf("%s", nome);
@@ -22,3 +22,17 @@ int main(){
 
     return 0;
 }
+
+/* A seguir, você tem uma lista dos principais especificadores utilizados:
+
+%d: Imprime um inteiro no formato decimal.
+ 
+%i: Equivalente a %d.
+ 
+%f: Imprime um número de ponto flutuante no formato padrão.
+ 
+%e: Imprime um número de ponto flutuante na notação científica.
+ 
+%c: Imprime um único caractere.
+ 
+%s: Imprime uma cadeia (string) de caracteres.*/
