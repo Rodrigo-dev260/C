@@ -75,17 +75,16 @@ int main() {
 
         // Área de calculo
 
-        densidade_populacional_1 = populacao1 / area_em_km1;
+        densidade_populacional_1 = (double) populacao1 / area_em_km1;
 
-        densidade_populacional_2 = populacao2 / area_em_km2;
+        densidade_populacional_2 = (double) populacao2 / area_em_km2;
 
         PIB_per_capta_1 = (pib1 * 1000000000) / populacao1;
 
         PIB_per_capta_2 = (pib2 * 1000000000) / populacao2;
 
-        //Comparação de cartas 
+        res_densidade_PIB = 
 
-        vit_Populacao1 = (populacao1 > populacao2);
 
         // Área reservada a saídas do terminal
 
@@ -94,10 +93,6 @@ int main() {
 
         printf("\n--- Resumo Carta 2 ---\n");
         printf("Carta: %d\nEstado: %c\nCódigo: %s\nNome da Cidade: %s\nPopulação: %d\nÁrea:%.2f km2\nPIB: %.2f bilhões de reais\nNúmero de Pontos Turísticos: %d\nDensidade Populacional: %.2f hab/km²\nPIB per Capta: %.2f reais\n", carta2, estado2, codigo2, n_cidade2, populacao2, area_em_km2, pib2, p_turisticos2, densidade_populacional_2, PIB_per_capta_2);
-
-        //Calculando 
-
-        rDensidadeoPIB =  
 
         return 0;
         }
